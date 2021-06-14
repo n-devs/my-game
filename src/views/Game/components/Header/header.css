@@ -1,0 +1,22 @@
+.header-box {
+      width: 75px;
+      height: 100%;
+}
+
+.header-bg {
+      background: #616161;
+}
+
+.button-map {
+      background: #f0f8ff00;
+      border-radius: 8px;
+      border: inherit;
+}
+
+.button-map:hover {
+      background: #ffffffcc;
+}
+
+.button-map:active {
+      background: #ffffffcc;
+}

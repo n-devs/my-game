@@ -1,13 +1,29 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: url("fonts/ZFTERMIN__.ttf");
+  font-weight: bold;
+}
+
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'myFirstFont';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'myFirstFont';
+}
+
+button {
+  font-family: 'myFirstFont';
+}
+
+#root {
+  height: 100%;
 }
